@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+        background-image: url(C:\Users\ADAILTON\Desktop\Local de gravação (Programação)\Html\Avaliação\foto.jpg);
+        background-repeat: repeat;
+        background-color: #000000;
+        margin: 0px;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-family: "Lucida Sans", sans-serif;
+        font-size: 15px;
+}
+
+section{
+ max-width:940px;
+ margin:20px;
+ overflow:visible;
+}
+
+section.fundo{
+	background-color: hsl(0, 94%, 51%);
+}
+
+img{
+	max-width: 100%;
+	height:auto;
+}
+form {
+    background:#000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #fff;
+    text-align: ;
+}
+
+/* Estiliza os inputs e selects */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estiliza o botão */
+input[type="submit"] {
+    background-color:#f50d0d;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #f7f7f7; /* Cor do texto */
+    font-size: 36px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Fonte */
+    text-align: center; /* Alinhamento do texto */
+    text-transform: uppercase; /* Transforma o texto para maiúsculas */
+    margin-top: 50px; /* Espaço acima */
+    margin-bottom: 20px; /* Espaço abaixo */
+  }
+
+  h2 {
+    color: #fafafa; /* Cor do texto */
+    font-size: 30px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Fonte */
+    text-align: left; /* Alinhamento do texto */
+    text-transform: capitalize; /* Capitaliza a primeira letra de cada palavra */
+    margin-top: 30px; /* Espaço acima */
+    margin-bottom: 10px; /* Espaço abaixo */
+  }
+
+  p {
+    color: #ffffff; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Fonte */
+    line-height: 1.6; /* Altura da linha para espaçamento entre as linhas */
+    text-align: justify; /* Alinhamento do texto */
+    margin-top: 20px; /* Espaço acima do parágrafo */
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+  }
+
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f8f8f8;
+    margin-bottom: 8px;
+    display: block;  /* Makes the label appear on a new line */
+}
+
+
+
+
